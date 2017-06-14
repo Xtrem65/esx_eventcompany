@@ -192,7 +192,7 @@
 
 			if(isShowingControls){
 
-				$.post('http://bespinevents/select_control', JSON.stringify({
+				$.post('http://esx_eventcompany/select_control', JSON.stringify({
 					control: currentControl,
 				}))
 
@@ -201,7 +201,7 @@
 			
 			} else if(isMenuOpen) {
 
-                $.post('http://bespinevents/select', JSON.stringify({
+                $.post('http://esx_eventcompany/select', JSON.stringify({
                     menu : currentMenu,
                     val  : currentVal,
                     type : currentType,

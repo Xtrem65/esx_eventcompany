@@ -151,8 +151,9 @@ function isAllowed()
 				return  true
 			end
 		end
+		return false
 	end
-	return false
+	return true
 end
 function isInService()
 	if PlayerData.job ~= nil and PlayerData.job.name == Config.JobName then

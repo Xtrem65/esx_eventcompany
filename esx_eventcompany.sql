@@ -2,7 +2,7 @@ USE `gta5_gamemode_essential`;
 
 INSERT INTO `jobs` (name, label)
 VALUES
-  ('events', 'Bespin Events')
+  ('events', 'Events')
 ;
 
 INSERT INTO `job_grades` (job_name, grade, name, label, salary, skin_male, skin_female)
